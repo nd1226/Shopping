@@ -1,0 +1,14 @@
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\bin\Debug\Shopping.Domain.dll.config
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\bin\Debug\Shopping.Domain.dll
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\bin\Debug\Shopping.Domain.pdb
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\obj\Debug\Shopping.Domain.csprojAssemblyReference.cache
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\obj\Debug\Shopping.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\obj\Debug\Shopping.Domain.csproj.CopyComplete
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\obj\Debug\Shopping.Domain.dll
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\obj\Debug\Shopping.Domain.pdb
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\obj\Debug\Shopping.Domain.Migrations.Init.resources
+C:\Users\Nhan\source\repos\Shopping\Shopping.Domain\obj\Debug\Shopping.Domain.csproj.GenerateResource.cache
