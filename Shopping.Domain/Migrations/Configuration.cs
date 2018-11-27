@@ -34,6 +34,22 @@ namespace Shopping.Domain.Migrations
                 context.Categories.AddOrUpdate(c);
             }
             context.SaveChanges();
+
+
+            var products = new Product[]
+              {
+            new Product{ProductName ="Sach 1",Price = 10000,Amount = 3,Description ="Description 1",ProductImage="https://cdn.shopify.com/s/files/1/0686/5373/products/0_royal_LS_crew_760x.jpg?v=1461095700%27"},
+            new Product{ProductName ="Sach 2",Price = 10000,Amount = 3,Description ="Description 2",ProductImage="https://cdn.shopify.com/s/files/1/0686/5373/products/0_royal_LS_crew_760x.jpg?v=1461095700%27"},
+            new Product{ProductName ="Sach 3",Price = 10000,Amount = 3,Description ="Description 3",ProductImage="https://cdn.shopify.com/s/files/1/0686/5373/products/0_royal_LS_crew_760x.jpg?v=1461095700%27"},
+            new Product{ProductName ="Sach 4",Price = 10000,Amount = 3,Description ="Description 4",ProductImage="https://cdn.shopify.com/s/files/1/0686/5373/products/0_royal_LS_crew_760x.jpg?v=1461095700%27"},
+
+
+              };
+            foreach (Product c in products)
+            {
+                context.Products.AddOrUpdate(c);
+            }
+            context.SaveChanges();
         }
     }
 }
