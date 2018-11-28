@@ -11,11 +11,16 @@ namespace Shopping.Controllers
 {
     public class HomeController : Controller
     {
-        //private readonly IMainRepository mainRepository;
+        private readonly IMainRepository _mainRepository;
+
+        public HomeController(IMainRepository mainRepository)
+        {
+            _mainRepository = mainRepository;
+        }
         public ActionResult Index()
         {
-            //List<Product> model = mainRepository.Products.ToList();
-            return View();
+            List<Product> model = _mainRepository.Products.ToList();
+            return View(model);
         }
 
         public ActionResult Details()
